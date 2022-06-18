@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlaySound
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"In","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Out","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":"Victory","$type":"MyType+Sound"},"_type":"MyType+Sound","key":"Sfx","label":null,"summary":null,"hideLabel":true}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-546.0,"y":-208.0},"guid":"368f06ec-f0fb-4006-abd6-297b9693b152","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Sound","$type":"System.String"}},"position":{"x":-546.0,"y":-99.0},"guid":"5654f529-144a-4e58-aa67-99c45e19bd82","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"argumentCount":1,"defaultValues":{"name":{"$content":"Sfx","$type":"System.String"},"target":null},"position":{"x":-336.0,"y":-208.0},"guid":"542f78ae-a2d4-447a-b69f-0929a1e6164d","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"16"},{"defaultValues":{},"position":{"x":-107.0,"y":-211.0},"guid":"768f6132-c0cc-4ccb-814f-ca2707bf3b76","$version":"A","$type":"Bolt.GraphOutput","$id":"18"},{"sourceUnit":{"$ref":"12"},"sourceKey":"In","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"1ea7352c-4168-4e91-8c1e-cf97aadbd849","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"18"},"destinationKey":"Out","guid":"a40d481e-c159-4e96-94de-ca7c00044442","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"73c8423c-9417-49f2-af9b-d8b1e873b567","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Sfx","destinationUnit":{"$ref":"16"},"destinationKey":"argument_0","guid":"43d92e77-1de9-4d3a-a60e-c3013a195a5d","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
